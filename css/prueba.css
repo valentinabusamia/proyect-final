@@ -1,190 +1,151 @@
-.titulo{
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+}
+ /* estilos header/nav */ 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFC600;
+    
+    
+}
+
+.header img{
+    width: 250px;
+    height: 150px;
+}
+.header nav ul {
+    display: flex;
+    list-style: none;
 
 }
-nav{
-    text-align: center;
-    margin: 1px;
-    padding: 1px;
+.header nav ul li{
+    margin: 15px;
 }
-nav a{
+.header nav ul li a {
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5px;
-    padding: 5px;
-    color: black;
-    
-    
+    color:#00918E;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px white;
 }
-
-.cartera1{
-    height: 30%;
-    width: 30%;
-}
-
-.cartera2{
-    height: 30%;
-    width: 30%;
-    
-}
-.cartera3{
-    height: 30%;
-    width: 30%;
-}
-
-.loc{
-    height: 30px;
-    width: 30px;
-    display: flex;
-    margin: 5px;
-
-
-}
-.seach{
-    height: 30px;
-    width: 30px;
-    display: flex;
-    margin: 5px;
-
-    
-}
-.ayuda{
-    height: 30px;
-    width: 30px;
-    display: flex;
-    margin: 5px;
-}
-.user{
-    height:30px ;
-    width: 30px;
-    display: flex;
-    margin: 5px;
-}
-.cajaPadre{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 1px;
-    padding: 1px;
-    
-    
-}
-.zapas1{
-    height:30% ;
-    width: 30%;
-    
-}
-
-.zapas2{
-    height:30% ;
-    width: 30%;
-    
-}
-
-.zapas3{
-    height: 30% ;
-    width: 30%;
-
-}
-.botas1{
-    height:20% ;
-    width: 20%;
-}
-.botas2{
-    height:20% ;
-    width:20% ;
-}
-.campera1{
-    height:30% ;
-    width: 30%;
-}
-.campera2{
-    height:30% ;
-    width:30% ;
-}
-.campera3{
-    height: 30%;
-    width:30% ;
-}
-header{
-    background-image: url(../multimeida/blanco.jpg);
-}
-
-.shoe{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-}
-
-
-
-.bandolera{
-    height:30% ;
-    width:30% ;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-.botas{
-    height:30% ;
-    width:30% ;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-.mochila{
-    height:30% ;
-    width: 30%;
-    flex-direction: row;
-    flex-wrap:nowrap ;
-}
-.fotoo{
-    height: 100%;
-    width:100% ;
-}
-.footer1{
+/* -------------main index---------*/ 
+.hero{
+    width: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-
-
-}
-.cajaCampe{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-
-
-}
-.contenedor1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
-footer{ 
-    text-align: center;
-}
-.formC{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.506),rgba(0, 0, 0, 0.5) ), url(../multimeida/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+.hero h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+.hero p{
+    font-size: 30px;
+    color: aliceblue;
+}
+.hero a{
+    background-color: #E0DDAA;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.sectionUno div{
+    display: flex;
+    align-items: center;
+}
+.sectionUno div img{
+    width:600px ;
+    height:400px ;
+
+}
+.sectionUno div .tituloParrafo{
+    margin: 40px;
+}
+
+
+.sectionDos div{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.sectionDos div img{
+    width:600px ;
+    height:400px ;
+
+}
+.sectionDos div .tituloParrafo{
+    margin: 40px;
+}
+/* -------------footer--------*/ 
+.footer1 ul{
+    list-style: none ;
+}
+.footer1 ul li a{
+    text-decoration: none;
+    color: #00918E;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px white;
+}
+
+.footer1 { 
+    background-color: #FFC600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer1 img{
+    width: 250px;
+    height: 150px;
+    
+}
+.footer1 div a img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.producto1 img{
+    height: 40%;
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
 .formD{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.boxZapas{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
+
+
 .box5{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-nav a:hover{
-    color: purple;
 }

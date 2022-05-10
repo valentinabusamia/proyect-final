@@ -12,112 +12,114 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="titulo">PRUNE</h1>
+    <header class="header">
+        <img src="../multimeida/logoMooi.webp" alt="">
         <nav>
             <ul>
-                <a href="../index.html">HOME</a>
-                <a href="productos.html">PRODUCTOS</a>
-                <a href="contacto.html">CONTACTO</a>
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="./productos.html">productos</a></li>
+                <li><a href="./contacto.html">contacto</a></li>
+                <li><a href="./localizacion.html">ubicacion</a></li>
+                <li><a href="">acerca de nosotros</a></li>
             </ul>
         </nav>
-        <div class="cajaPadre">
-            <a href=""> <img class="seach" src="../multimeida/search.png" buscar></a>
-            <a href="./localizacion.html"><img class="loc" src="../multimeida/location.png" alt="localizacion"></a>
-            <a href="./ayuda.html"> <img class="ayuda" src="../multimeida/question.png" alt="ayuda"></a>
-            <a href=""><img class="user" src="../multimeida/user.png" alt="usuario"></a>
-        </div>
-
     </header>
-    <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-4">
-            <label for="validationCustom01" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="validationCustom01" value="" required>
-            <div class="valid-feedback">
-                Looks good!
-            </div>
-        </div>
-        <div class="col-md-4">
-            <label for="validationCustom02" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="validationCustom02" value="" required>
-            <div class="valid-feedback">
-                Looks good!
-            </div>
-        </div>
-        <div class="col-md-4">
-            <label for="validationCustomUsername" class="form-label">E-mail</label>
-            <div class="input-group has-validation">
-                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                <input type="text" class="form-control" id="validationCustomUsername"
-                    aria-describedby="inputGroupPrepend" required>
-                <div class="invalid-feedback">
-                    Please choose a username.
+    <main>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
                 </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <label for="validationCustom03" class="form-label">Escribinos tu consulta</label>
-            <input type="text" class="form-control" id="validationCustom03" required>
-            <div class="invalid-feedback">
-                Please provide a valid city.
-            </div>
-        </div>
-        <div class="col-md-3">
-            <label for="validationCustom04" class="form-label">Estas conforme con tu compra?</label>
-            <select class="form-select" id="validationCustom04" required>
-                <option selected disabled value="">si</option>
-                <option>no</option>
-            </select>
-            <div class="invalid-feedback">
-                Please select a valid state.
-            </div>
-        </div>
-        <div class="col-md-3">
-            <label for="validationCustom05" class="form-label">Telefono celular</label>
-            <input type="text" class="form-control" id="validationCustom05" required>
-            <div class="invalid-feedback">
-                Please provide a valid zip.
-            </div>
-        </div>
-        <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                <label class="form-check-label" for="invalidCheck">
-                    Acepta terminos y condiciones?
-                </label>
-                <div class="invalid-feedback">
-                    You must agree before submitting.
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationCustom02" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
                 </div>
             </div>
-        </div>
-        <div class="col-12">
-            <button class="btn btn-primary" type="submit">Enviar formulario</button>
-        </div>
-    </form>
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">E-mail</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Escribinos tu consulta</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Estas conforme con tu compra?</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">si</option>
+                    <option>no</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid state.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Telefono celular</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Please provide a valid zip.
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Acepta terminos y condiciones?
+                    </label>
+                    <div class="invalid-feedback">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar formulario</button>
+            </div>
+        </form>
+    </main>
 
 
-    <footer>
-        <div class="footer1">
-            <h2>suscribite a nuestro newsletter</h2>
-            <form action="#">
-                <label for="mensaje"></label>
-                <input type="email" id="email" placeholder="ingrese email" name="email">
-            </form>
-        </div>
-        <nav>
-            <ul>
-                <a href="index.html"> HOME</a>
-                <a href="./pages/ayuda.html">AYUDA</a>
-                <a href="./pages/localizacion.html">UBICACION</a>
-                <a href="./pages/productos.html">PRODUCTOS</a>
-            </ul>
-        </nav>
-        <p> PRÜNE 2022 Todos los derechos reservados. Términos y Condiciones</p>
-    </footer>
+        <footer>
+            <div class="footer1">
+                <img src="../multimeida/logoMooi.webp" alt="">
+                <ul>
+                    <li><a href="../index.html">inicio</a></li>
+                    <li><a href="">contacto</a></li>
+                    <li><a href="">acerca de nosotros</a></li>
+                </ul>
+                <div>
+                    <a href=""><img src="../multimeida/instagram.png" alt=""></a>
+                    <a href=""><img src="../multimeida/facebook.png" alt=""></a>
+                    <div class="footer1">
+                        <h4>suscribite a nuestro newsletter</h4>
+                        <form action="#">
+                            <label for="mensaje"></label>
+                            <input type="email" id="email" placeholder="ingrese email" name="email">
+                        </form>
+                    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+
+                </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
