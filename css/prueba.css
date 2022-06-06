@@ -7,9 +7,18 @@
 body{
     background-color: #E0DDAA;
 }
-h2{
-    text-align: center;
+
+
+
+/*------header----*/
+@media screen and (max-width: 805px){
+    .header{
+        flex-direction: column;
+        justify-content: center;
+    }
 }
+
+
 
 .header{
     display: flex;
@@ -44,7 +53,8 @@ h2{
     color: #00918E;
     transition: 1s;
     text-shadow: none;
-}
+} 
+
 /* -------------main index---------*/ 
 .hero{
     width: 100%;
@@ -53,7 +63,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.506),rgba(0, 0, 0, 0.5) ), url(../multimeida/hero.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.506),rgba(0, 0, 0, 0.5) ), url(../multimedia/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,20 +118,37 @@ h2{
     margin: 40px;
 
 }
-/*carrusel del index */
+
+@media screen and (max-width: 1013px){
+    .img{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1013px){
+    .img2{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+/*---------carrusel del index-------- */
 
 
 .carouselIndex >div {
     width: 60%;
     padding: 0px 0px 10px 0px ;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 h4{
     font-size: 60px;
     font-weight: bold;
-    color: antiquewhite;
+    color: black;
     text-align: center;
+    
 }
 
 
@@ -134,6 +161,7 @@ h4{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .footer1 ul{
     list-style: none ;
@@ -144,6 +172,8 @@ h4{
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px white;
+    
+    
 }
 
 .footer1 img{
@@ -156,46 +186,84 @@ h4{
     height: 50px;
 
 }
-
-
+.boton{
+    border: #00918E;
+    background-color: #00918E;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+.email{
+    border: 2px solid #00918E;
+    background-color: #E0DDAA;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+@media screen and (max-width: 805px){
+    .footer1{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 
 
 /* -------------PRODUCTOS---------*/ 
-.sectionProductos{
-    display: flex;
-    align-items: center;
-}
-.sectionProductos .productos  {
+
+section .productos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between  ;
+    justify-content: space-evenly;
+    margin: 9px;  
     
 }
+
 
 /* -------------acerca de nostoros ---------*/ 
 .local div{
     display: flex;
     align-items: center;
+    
 
 }
 .local div img{
     height: 500px;
     width: 400px;
     margin: 13px;
+}
+@media screen and (max-width: 711px){
+    .local2{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
 
-}
-.local  h4{
-    margin: 20px;
-}
+
 
 /* -------------Localizacion---------*/ 
-.localizacion div div {
-    display: flex;
-    align-items: center;
-    
-}
-.localizacion  div {
+
+.localizacion{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
+.datos{
+    
+    padding: 15px;
+    
+}
+@media screen and (max-width: 542px){
+    .localizacion{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+

@@ -51,6 +51,9 @@
     height: 50px; }
 
 /* -------------main index---------*/
+body {
+  background-color: #E0DDAA; }
+
 .hero {
   width: 100%;
   height: 80vh;
@@ -109,6 +112,22 @@ h4 {
   width: 75%;
   padding: 0px 0px 10px 0px; }
 
+/* ---------productos--------*/
+section .productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+/*-----acercadenosotros-----*/
+.local div {
+  display: flex;
+  align-items: center; }
+  .local div img {
+    height: 500px;
+    width: 400px;
+    margin: 13px; }
+
 /* ---------extend--------*/
 .imagenS1, .imagenS2 {
   width: 600px;
@@ -117,3 +136,9 @@ h4 {
 
 .imagenS2 {
   padding: 10px; }
+
+/*----------mixin----------*/
+img {
+  border: 1px;
+  width: 200px;
+  height: 150px; }

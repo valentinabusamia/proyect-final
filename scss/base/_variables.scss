@@ -9,4 +9,14 @@
     padding: 10px;
     
 }
-/*----------mixin----------/
+/*----------mixin----------*/
+@mixin primero ($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
+
+img{
+    border: 1px;
+    @include primero (200px, 150px)
+}
+
