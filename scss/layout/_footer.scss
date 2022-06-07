@@ -30,3 +30,29 @@
     }
 
 }
+.footer1{
+    .boton{
+        border: #00918E;
+        background-color: #00918E;
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .email{
+        border: 2px solid #00918E;
+        background-color: #E0DDAA;
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 5px;
+        margin-top: 10px;
+        
+    }
+}
+
+    @media screen and (max-width: 805px){
+        .footer1{
+            flex-direction: column;
+            justify-content: center;
+        }
+    }

@@ -7,9 +7,14 @@
 body{
     background-color: #E0DDAA;
 }
-
-
-
+h1{
+    text-decoration: none;
+    color: #00918E;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+}
 /*------header----*/
 @media screen and (max-width: 805px){
     .header{
@@ -17,8 +22,6 @@ body{
         justify-content: center;
     }
 }
-
-
 
 .header{
     display: flex;
@@ -54,7 +57,6 @@ body{
     transition: 1s;
     text-shadow: none;
 } 
-
 /* -------------main index---------*/ 
 .hero{
     width: 100%;
@@ -125,37 +127,23 @@ body{
         justify-content: center;
     }
 }
-@media screen and (max-width: 1013px){
-    .img2{
-        flex-direction: column;
-        justify-content: center;
-    }
-}
-
-
 /*---------carrusel del index-------- */
-
-
 .carouselIndex >div {
     width: 60%;
+    
     padding: 0px 0px 10px 0px ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-h4{
-    font-size: 60px;
-    font-weight: bold;
-    color: black;
-    text-align: center;
     
 }
-
-
-
+h3{
+    text-decoration: none;
+    color:#00918E;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+}
 
 /* -------------footer--------*/ 
-
 .footer1 { 
     background-color: #FFC600;
     display: flex;
@@ -211,9 +199,7 @@ h4{
     }
 }
 
-
 /* -------------PRODUCTOS---------*/ 
-
 section .productos {
     display: flex;
     flex-direction: row;
@@ -223,47 +209,4 @@ section .productos {
     
 }
 
-
-/* -------------acerca de nostoros ---------*/ 
-.local div{
-    display: flex;
-    align-items: center;
-    
-
-}
-.local div img{
-    height: 500px;
-    width: 400px;
-    margin: 13px;
-}
-@media screen and (max-width: 711px){
-    .local2{
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-}
-
-
-
-/* -------------Localizacion---------*/ 
-
-.localizacion{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-}
-.datos{
-    
-    padding: 15px;
-    
-}
-@media screen and (max-width: 542px){
-    .localizacion{
-        flex-direction: column;
-        justify-content: center;
-    }
-}
 
